@@ -1,0 +1,103 @@
+h1{
+	margin:0px;
+}
+.mainContainer{
+	background-color: rgb(255,255,255);
+}
+.header{
+	background-color: rgb(2,74,145);
+	color: rgb(255,255,255);
+}
+
+.map{
+	float:right;
+	height:100%;
+	padding-left: 0px;
+	padding-right: 0px;
+	overflow:hidden;
+}
+
+.content{
+	background: #d97e08; /* Old browsers */
+	background: -moz-linear-gradient(top,  #d97e08 0%, #f1bb73 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d97e08), color-stop(100%,#f1bb73)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #d97e08 0%,#f1bb73 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #d97e08 0%,#f1bb73 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #d97e08 0%,#f1bb73 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #d97e08 0%,#f1bb73 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d97e08', endColorstr='#f1bb73',GradientType=0 ); /* IE6-9 */
+
+}
+
+#map_canvas {
+    width: 100%;
+    height: 100%; 
+}
+body {
+	background-color:white;
+}
+body,
+.modal-open .page-container,
+.modal-open .page-container .navbar-fixed-top,
+.modal-open .modal-container {
+	overflow-y: scroll;
+}
+
+@media (max-width: 979px) {
+	.modal-open .page-container .navbar-fixed-top{
+		overflow-y: visible;
+	}
+}
+
+#container{
+	height:90%;
+}
+
+.highcharts-background{
+	width: 400px;
+    height: 200px;
+}
+
+.search{
+	margin-top:20px;
+}
+
+.textbox { 
+    background: #FFF url(http://html-generator.weebly.com/files/theme/input-text-9.png) no-repeat 4px 4px; 
+    border: 1px solid #999; 
+	border-radius:25px;
+    outline:0; 
+    padding-left: 25px;
+    height:25px; 
+    width: 80%; 
+  } 
+
+.search-button{
+	margin-top:10px;
+	margin-right:50%;
+	border: 1px solid #999; 
+	border-radius:25px;
+	height:25px;
+}
+
+.mobilesearch{
+	margin-top:50px;
+}
+
+.mobiletextbox { 
+    background: #FFF url(http://html-generator.weebly.com/files/theme/input-text-9.png) no-repeat 4px 4px; 
+    border: 1px solid #999; 
+	border-radius:25px;
+    outline:0; 
+    padding-left: 25px;
+    height:25px; 
+    width: 80%; 
+  } 
+
+.mobilesearch-button{
+	margin-top:10px;
+	float:left;
+	border: 1px solid #999; 
+	border-radius:25px;
+	height:25px;
+}
